@@ -24,23 +24,23 @@ header {
 }
 
 .header_con {
-  width: 95%;
+  width: 94%;
   height: fit-content;
-  margin: 20px auto;
+  margin: 46px auto;
   display: flex;
   justify-content: space-between;
 }
 
 .header_con > h1 {
-  font-size: 15px;
+  font-size: 29px;
   font-weight: 500;
 }
 
 #gnb > ul {
   display: flex;
-  gap: 15px;
+  gap: 18px;
 }
 
 #gnb > ul > li {
-  font-size: 12px;
+  font-size: 26px;
 }
