@@ -13,8 +13,9 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 1360px;
   height: fit-content;
+  margin: 220px auto;
 }
 
 /* 헤더 */
@@ -76,14 +77,14 @@ header {
 .sec1_text_box_1 > h2 > span:nth-of-type(1) {
   width: fit-content;
   font-family: "Italiana", serif;
-  font-size: 170px;
+  font-size: 160px;
   display: block;
   letter-spacing: -9px;
 }
 
 .sec1_text_box_1 > h2 > span:nth-of-type(2) {
   width: fit-content;
-  font-size: 190px;
+  font-size: 180px;
   font-weight: 200;
   letter-spacing: -17px;
   display: block;
@@ -91,7 +92,7 @@ header {
 
 .sec1_text_box_1 > h2 > span:nth-of-type(3) {
   width: fit-content;
-  font-size: 190px;
+  font-size: 180px;
   font-weight: 200;
   letter-spacing: -9px;
 }
@@ -99,7 +100,7 @@ header {
 .sec1_text_box_1 > h2 > span:nth-of-type(4) {
   font-family: "Italiana", serif;
   width: fit-content;
-  font-size: 160px;
+  font-size: 150px;
   font-weight: 200;
   letter-spacing: -9px;
 }
@@ -107,7 +108,7 @@ header {
 .sec1_text_box_1 > h2 > span:nth-of-type(5) {
   font-family: "Italiana", serif;
   width: fit-content;
-  font-size: 190px;
+  font-size: 180px;
   font-weight: 200;
   letter-spacing: -9px;
 }
@@ -135,7 +136,7 @@ header {
 .sec1_text_box_2 > h2 > span:nth-of-type(2) {
   font-family: "Italiana", serif;
   width: fit-content;
-  font-size: 180px;
+  font-size: 170px;
   font-weight: 200;
   letter-spacing: -5px;
 }
@@ -143,7 +144,7 @@ header {
 .sec1_text_box_2 > h2 > span:nth-of-type(3) {
   font-family: "Italiana", serif;
   width: fit-content;
-  font-size: 165px;
+  font-size: 155px;
   font-weight: 200;
   letter-spacing: -1px;
   margin-right: 20px;
@@ -152,14 +153,14 @@ header {
 .sec1_text_box_2 > h2 > span:nth-of-type(4) {
   font-family: "Italiana", serif;
   width: fit-content;
-  font-size: 165px;
+  font-size: 155px;
   font-weight: 200;
   letter-spacing: -12px;
 }
 
 .sec1_text_box_2 > h2 > span:nth-of-type(5) {
   width: fit-content;
-  font-size: 165px;
+  font-size: 155px;
   font-weight: 200;
   letter-spacing: -6px;
   font-weight: 200;
@@ -174,22 +175,22 @@ header {
 .sec1_text_box_3 > h2 > span:nth-of-type(1) {
   font-family: "Italiana", serif;
   width: fit-content;
-  font-size: 180px;
+  font-size: 170px;
   font-weight: 200;
-  letter-spacing: -15px;
+  letter-spacing: -8px;
 }
 
 .sec1_text_box_3 > h2 > span:nth-of-type(2) {
   font-family: "Italiana", serif;
   width: fit-content;
-  font-size: 180px;
+  font-size: 170px;
   font-weight: 200;
-  letter-spacing: -16px;
+  letter-spacing: 0px;
 }
 .sec1_text_box_3 > h2 > span:nth-of-type(3) {
   /* font-family: "Italiana", serif; */
   width: fit-content;
-  font-size: 180px;
+  font-size: 170px;
   font-weight: 200;
   letter-spacing: -8px;
   margin-right: 30px;
@@ -197,14 +198,14 @@ header {
 .sec1_text_box_3 > h2 > span:nth-of-type(4) {
   font-family: "Italiana", serif;
   width: fit-content;
-  font-size: 180px;
+  font-size: 170px;
   font-weight: 200;
   letter-spacing: -20px;
 }
 .sec1_text_box_3 > h2 > span:nth-of-type(5) {
   font-family: "Italiana", serif;
   width: fit-content;
-  font-size: 170px;
+  font-size: 160px;
   font-weight: 200;
   letter-spacing: -8px;
   margin-right: 40px;
@@ -233,4 +234,4 @@ header {
 
 /* 스크롤 더보기 영역 애니메이션 적용 필요 */
 
-/*  */
+/* 2번 섹션_프로젝트 */
