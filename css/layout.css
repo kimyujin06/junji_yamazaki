@@ -6,6 +6,22 @@
 /* 서브 폰트 - san-sarif */
 @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
 
+/* 스크롤바 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #93939328;
+}
+
 body {
   font-family: "Antic Didone", serif;
   background-color: rgb(0, 0, 0);
@@ -188,7 +204,6 @@ header {
   letter-spacing: 0px;
 }
 .sec1_text_box_3 > h2 > span:nth-of-type(3) {
-  /* font-family: "Italiana", serif; */
   width: fit-content;
   font-size: 170px;
   font-weight: 200;
@@ -235,3 +250,58 @@ header {
 /* 스크롤 더보기 영역 애니메이션 적용 필요 */
 
 /* 2번 섹션_프로젝트 */
+.sec2_next_project {
+  width: 100%;
+  position: relative;
+  top: 450px;
+  left: 0px;
+}
+
+.sec2_box_wrap_1 {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  margin-bottom: 1000px;
+}
+
+.sec2_box_wrap_1 .sec2_img_box {
+  width: 100%;
+  height: 460px;
+  overflow: hidden;
+}
+
+.sec2_box_wrap_1 .sec2_img_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sec2_box_wrap_1 .sec2_text_box {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  bottom: -36px;
+  z-index: 1;
+  text-align: center;
+}
+
+.sec2_box_wrap_1 .sec2_text_box h4 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.sec2_box_wrap_1 .sec2_text_box p {
+  font-family: "Lexend", serif;
+  font-size: 13px;
+}
+
+.sec2_box_wrap_2,
+.sec2_box_wrap_3,
+.sec2_box_wrap_4,
+.sec2_box_wrap_5,
+.sec2_box_wrap_6,
+.sec2_box_wrap_7,
+.sec2_box_wrap_8,
+.sec2_box_wrap_9 {
+  display: none;
+}
