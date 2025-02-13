@@ -36,17 +36,18 @@ body {
 .container {
   width: 1360px;
   height: fit-content;
-  margin: 220px auto;
+  margin: 190px auto;
 }
 
 /* 헤더 */
 header {
   width: 100%;
-  height: 70px;
+  height: 60px;
   letter-spacing: -0px;
   position: fixed;
   top: 0px;
   left: 0px;
+  z-index: 999;
 }
 
 .header_con {
@@ -80,7 +81,7 @@ header {
 .sec1_wrap {
   width: fit-content;
   height: fit-content;
-  margin: 12% auto;
+  margin: 0% auto;
 }
 
 /* 메인 텍스트 1번째 줄 */
@@ -257,9 +258,10 @@ header {
 /* 2번 섹션_프로젝트 */
 .sec2_next_project {
   width: 100%;
-  position: relative;
+  /* position: relative; */
   top: 450px;
   left: 0px;
+  margin-top: 500px;
 }
 
 /* 섹션 2번 - 1번 박스 */
@@ -603,7 +605,7 @@ header {
   width: 100%;
   height: fit-content;
   position: absolute;
-  margin-top: 730px;
+  margin-top: 240px;
   left: 0px;
   overflow: hidden;
 }
@@ -681,4 +683,112 @@ header {
 }
 .sec3_text_all_wrap2 > .sec3_text_wrap > p:nth-of-type(3) {
   font-family: "Smooch Sans", serif;
+}
+
+/* 4번 섹션 - services */
+.se4_services {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  margin-top: 900px;
+  left: 0px;
+}
+
+.sec4_con {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+}
+
+.sec4_contants_wrap {
+  width: 1000px;
+  height: fit-content;
+  position: absolute;
+  z-index: 1;
+}
+
+.heading_right {
+  width: 1052px;
+  height: 657px;
+  position: absolute;
+  left: 450px;
+}
+
+.heading_right > div {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.sec4_contants1 {
+  margin-top: 50px;
+}
+
+.sec4_contants1,
+.sec4_contants2,
+.sec4_contants3 {
+  width: fit-content;
+  height: 962px;
+}
+
+.sec4_contants1 > h4 {
+  font-size: 28px;
+  margin-bottom: 80px;
+}
+
+.sec4_contants1 > h4 + p {
+  font-size: 14px;
+  font-family: "Lexend", serif;
+  letter-spacing: 1.5px;
+}
+
+.sec4_contants1 > h2 {
+  width: fit-content;
+  font-size: 130px;
+  letter-spacing: -9px;
+  margin: 10px 0px;
+  margin-bottom: 40px;
+}
+
+.sec4_contants1 > p:not(h4 + p) {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sec4_contants2 > p:nth-of-type(1) {
+  font-size: 14px;
+  font-family: "Lexend", serif;
+  letter-spacing: 1.5px;
+}
+
+.sec4_contants2 > h2 {
+  width: fit-content;
+  font-size: 130px;
+  letter-spacing: -9px;
+  margin: 10px 0px;
+  margin-bottom: 40px;
+}
+
+.sec4_contants2 > p:not(p:nth-of-type(1)) {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sec4_contants3 > p:nth-of-type(1) {
+  font-size: 14px;
+  font-family: "Lexend", serif;
+  letter-spacing: 1.5px;
+}
+
+.sec4_contants3 > h2 {
+  width: fit-content;
+  font-size: 130px;
+  letter-spacing: -9px;
+  margin: 10px 0px;
+  margin-bottom: 40px;
+}
+
+.sec4_contants3 > p:not(p:nth-of-type(1)) {
+  font-size: 20px;
+  margin-bottom: 10px;
 }
