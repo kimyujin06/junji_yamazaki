@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JUNJI YAMAZAKI PORTFOLIO</title>
     <!-- 파비콘 -->
-    <link rel="favicon" href="./img/favicon.webp" />
+    <link rel="shortcut icon" href="./img/favicon.webp" />
     <!-- css -->
     <link rel="stylesheet" href="./css/layout.css" />
   </head>
   <body>
     <div class="container">
+      <div class="background_cloud"></div>
       <!-- 헤더 -->
       <header>
         <div class="header_con">
@@ -265,5 +266,26 @@
       <!-- 푸터 -->
       <footer></footer>
     </div>
+    <!-- vanta, background -->
+    <script src="./js/three.min.js"></script>
+    <script src="./js/vanta.fog.min.js"></script>
+    <script>
+      VANTA.FOG({
+        el: ".background_cloud",
+        THREE,
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        highlightColor: 0x0,
+        midtoneColor: 0x098891,
+        lowlightColor: 0x002244,
+        baseColor: 0x0,
+        blurFactor: 0.76,
+        speed: 3.3,
+        zoom: 0.9,
+      });
+    </script>
   </body>
 </html>
