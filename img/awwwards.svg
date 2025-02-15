@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 30 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="_レイヤー_1" data-name="レイヤー_1">
+      <g id="_レイヤー_1-2" data-name="_レイヤー_1">
+        <path class="cls-1" d="M18.4,0l-2.803,10.855L12.951,0h-3.611l-2.647,10.855L3.892,0H0l5.012,15.812h3.425l2.708-10.228,2.709,10.228h3.425L22.29,0h-3.892s.002,0,.002,0ZM24.77,13.365c0,1.506,1.12,2.635,2.615,2.635,1.494,0,2.615-1.13,2.615-2.635,0-1.506-1.12-2.636-2.615-2.636s-2.615,1.13-2.615,2.636Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

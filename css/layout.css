@@ -10,6 +10,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap");
+/* 일본어 폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap");
 
 /* 스크롤바 */
 ::-webkit-scrollbar {
@@ -65,7 +67,7 @@ body {
 .container {
   width: 1360px;
   height: fit-content;
-  margin: 12vw auto;
+  margin: 10% auto;
 }
 
 /* 헤더 */
@@ -725,28 +727,31 @@ header {
 
 .sec4_con {
   width: fit-content;
-  height: fit-content;
+  height: 1000px;
   display: flex;
+  position: relative;
 }
 
 .sec4_contants_wrap {
-  width: 1000px;
+  width: 100%;
   height: fit-content;
   position: absolute;
   z-index: 1;
 }
 
 .heading_right {
-  width: 1052px;
-  height: 657px;
-  position: absolute;
+  width: 100%;
+  height: 2700px;
+  position: relative;
   left: 450px;
 }
 
 .heading_right > div {
-  width: 100%;
-  height: 100%;
+  width: 1052px;
+  height: 657px;
   overflow: hidden;
+  position: sticky;
+  top: 200px;
 }
 
 .sec4_contants1 {
@@ -820,4 +825,104 @@ header {
 .sec4_contants3 > p:not(p:nth-of-type(1)) {
   font-size: 20px;
   margin-bottom: 10px;
+}
+
+/* 5번 섹션 - Junji Yamazaki */
+.sec5_junji_yamazaki {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  top: 2100px;
+}
+
+.sec5_con {
+  width: 100%;
+  height: fit-content;
+}
+
+.sec5_con > h2 {
+  width: 100%;
+  font-size: 230px;
+  letter-spacing: -10px;
+  line-height: 290px;
+  text-align: center;
+}
+
+.sec5_con > h2 + p {
+  width: 100%;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Zen Kaku Gothic New", serif;
+  margin-bottom: 150px;
+}
+
+.sec5_bottom_text_box {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec5_left_text_box {
+  width: 47.5%;
+  font-family: "Zen Kaku Gothic New", serif;
+  font-size: 21px;
+}
+
+.sec5_left_text_box > p {
+  font-weight: 300;
+  line-height: 43px;
+  letter-spacing: -1px;
+}
+
+.sec5_left_text_box > p:first-child {
+  margin-bottom: 20px;
+}
+
+.sec5_right_text_box {
+  width: 47.5%;
+}
+
+.sec5_right_text_box > p {
+  font-size: 21px;
+  line-height: 43px;
+  letter-spacing: -1px;
+}
+
+.sec5_right_text_box > p:first-child {
+  margin-bottom: 20px;
+}
+
+.sec5_footer_wrap {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  margin-top: 80px;
+  gap: 35px;
+}
+
+.sec5_footer_box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.sec5_footer_box:nth-of-type(1) > div {
+  width: 37.5px;
+  height: 50px;
+}
+
+.sec5_footer_box:nth-of-type(2) > div {
+  width: 157px;
+  height: 24px;
+}
+.sec5_footer_box:nth-of-type(3) > div {
+  width: 111px;
+  height: 14px;
+}
+
+.sec5_footer_box > div > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
