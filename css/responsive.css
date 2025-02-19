@@ -2,12 +2,12 @@
 
 @media screen and (max-width: 767px) {
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 999px) {
   .container {
     margin-top: 40vw;
   }
 }
-@media screen and (min-width: 901px) and (max-width: 1200px) {
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
   .container {
     margin-top: 30vw;
   }
