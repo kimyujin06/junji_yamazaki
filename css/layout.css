@@ -753,7 +753,7 @@ main {
   width: fit-content;
   height: fit-content;
   position: relative;
-  margin-top: 900px;
+  margin-top: clamp(720px, 55vw, 900px);
   left: 0px;
 }
 
