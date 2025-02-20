@@ -31,6 +31,13 @@
   .sec3_text_wrap > p {
     line-height: 80px;
   }
+  .heading_right {
+    left: 27vw;
+  }
+  .heading_right > div {
+    width: clamp(500px, 60vw, 1052px);
+    height: clamp(350px, 30vw, 657px);
+  }
 }
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
   .container {
@@ -58,6 +65,9 @@
   .sec3_text_wrap > p {
     line-height: 100px;
   }
+  .heading_right {
+    left: 30vw;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width: 1650px) {
   .sec2_box_wrap_2,
@@ -81,5 +91,8 @@
   }
   .sec3_text_wrap > p {
     line-height: 100px;
+  }
+  .heading_right {
+    left: 30vw;
   }
 }
