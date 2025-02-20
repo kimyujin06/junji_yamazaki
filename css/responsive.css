@@ -1,14 +1,43 @@
 @charset "utf-8";
 
+/* 모바일 버전 */
 @media screen and (max-width: 767px) {
 }
+
+/* 이외 기타 반응형 부분 수정 구역 */
 @media screen and (max-width: 999px) {
   .container {
     margin-top: 40vw;
+  }
+  .sec2_box_wrap_2,
+  .sec2_box_wrap_6,
+  .sec2_box_wrap_9 {
+    left: 0px;
+  }
+  .sec2_box_wrap_3 .sec2_img_box {
+    height: clamp(130px, 10vw, 270px);
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
   .container {
     margin-top: 30vw;
+  }
+  .sec2_box_wrap_2,
+  .sec2_box_wrap_6,
+  .sec2_box_wrap_9 {
+    left: 0px;
+  }
+  .sec2_box_wrap_3 .sec2_img_box {
+    height: clamp(130px, 15vw, 270px);
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1650px) {
+  .sec2_box_wrap_2,
+  .sec2_box_wrap_6,
+  .sec2_box_wrap_9 {
+    left: 0px;
+  }
+  .sec2_box_wrap_3 .sec2_img_box {
+    height: clamp(130px, 15vw, 270px);
   }
 }

@@ -302,11 +302,13 @@ header {
 
 /* 스크롤 더보기 영역 애니메이션 적용 필요 */
 
+main {
+  width: 100%;
+}
 /* 2번 섹션_프로젝트 */
 .sec2_next_project {
   width: 100%;
-  /* position: relative; */
-  top: 450px;
+  top: 20%;
   left: 0px;
   margin-top: 500px;
 }
@@ -317,11 +319,13 @@ header {
   height: fit-content;
   position: relative;
   margin-bottom: 250px;
+  padding: 0px 50px;
+  box-sizing: border-box;
 }
 
 .sec2_box_wrap_1 .sec2_img_box {
   width: 100%;
-  height: 460px;
+  height: clamp(200px, 30vw, 460px);
   overflow: hidden;
 }
 
@@ -332,7 +336,7 @@ header {
 }
 
 .sec2_box_wrap_1 .sec2_text_box {
-  width: 100%;
+  width: 90%;
   height: fit-content;
   position: absolute;
   bottom: -36px;
@@ -341,13 +345,13 @@ header {
 }
 
 .sec2_box_wrap_1 .sec2_text_box h4 {
-  font-size: 36px;
+  font-size: clamp(26px, 2vw, 36px);
   margin-bottom: 5px;
 }
 
 .sec2_box_wrap_1 .sec2_text_box p {
   font-family: "Lexend", serif;
-  font-size: 13px;
+  font-size: clamp(10px, 1vw, 13px);
 }
 
 /* 섹션 2번 - 2번 박스 */
@@ -355,12 +359,12 @@ header {
   width: fit-content;
   height: fit-content;
   position: relative;
-  left: -120px;
+  left: -140px;
 }
 
 .sec2_box_wrap_2 .sec2_img_box {
-  width: 816px;
-  height: 450px;
+  width: clamp(410px, 50vw, 816px);
+  height: clamp(240px, 30vw, 450px);
   overflow: hidden;
 }
 
@@ -378,13 +382,13 @@ header {
 }
 
 .sec2_box_wrap_2 .sec2_text_box h4 {
-  font-size: 36px;
+  font-size: clamp(26px, 2vw, 36px);
   margin-bottom: 5px;
 }
 
 .sec2_box_wrap_2 .sec2_text_box p {
   font-family: "Lexend", serif;
-  font-size: 13px;
+  font-size: clamp(10px, 1vw, 13px);
 }
 
 /* 섹션 2번 - 3번 박스 */
@@ -392,12 +396,12 @@ header {
   width: fit-content;
   height: fit-content;
   position: relative;
-  left: 900px;
+  left: 65%;
 }
 
 .sec2_box_wrap_3 .sec2_img_box {
-  width: 453px;
-  height: 270px;
+  width: clamp(100px, 30vw, 453px);
+  height: clamp(150px, 20vw, 270px);
   overflow: hidden;
 }
 
@@ -415,13 +419,13 @@ header {
 }
 
 .sec2_box_wrap_3 .sec2_text_box h4 {
-  font-size: 36px;
+  font-size: clamp(26px, 2vw, 36px);
   margin-bottom: 5px;
 }
 
 .sec2_box_wrap_3 .sec2_text_box p {
   font-family: "Lexend", serif;
-  font-size: 13px;
+  font-size: clamp(10px, 1vw, 13px);
 }
 
 /* 섹션 2번 - 4번 박스 */
@@ -430,11 +434,13 @@ header {
   height: fit-content;
   position: relative;
   margin-bottom: 170px;
+  padding: 0px 50px;
+  box-sizing: border-box;
 }
 
 .sec2_box_wrap_4 .sec2_img_box {
-  width: 453px;
-  height: 260px;
+  width: clamp(230px, 30vw, 453px);
+  height: clamp(130px, 15vw, 260px);
   overflow: hidden;
 }
 
@@ -449,16 +455,19 @@ header {
   position: absolute;
   bottom: -36px;
   left: 20px;
+  padding: 0px 50px;
+  box-sizing: border-box;
 }
 
 .sec2_box_wrap_4 .sec2_text_box h4 {
-  font-size: 36px;
+  font-size: clamp(20px, 2vw, 36px);
+  letter-spacing: -1px;
   margin-bottom: 5px;
 }
 
 .sec2_box_wrap_4 .sec2_text_box p {
   font-family: "Lexend", serif;
-  font-size: 13px;
+  font-size: clamp(10px, 1vw, 13px);
 }
 
 /* 섹션 2번 - 5번 박스 */
@@ -471,8 +480,8 @@ header {
 }
 
 .sec2_box_wrap_5 .sec2_img_box {
-  width: 453px;
-  height: 475px;
+  width: clamp(250px, 30vw, 453px);
+  height: clamp(250px, 30vw, 475px);
   overflow: hidden;
 }
 
@@ -490,13 +499,13 @@ header {
 }
 
 .sec2_box_wrap_5 .sec2_text_box h4 {
-  font-size: 36px;
+  font-size: clamp(24px, 2vw, 36px);
   margin-bottom: 5px;
 }
 
 .sec2_box_wrap_5 .sec2_text_box p {
   font-family: "Lexend", serif;
-  font-size: 13px;
+  font-size: clamp(10px, 1vw, 13px);
 }
 
 /* 섹션 2번 - 6번 박스 */
@@ -509,8 +518,8 @@ header {
 }
 
 .sec2_box_wrap_6 .sec2_img_box {
-  width: 816px;
-  height: 470px;
+  width: clamp(400px, 48vw, 816px);
+  height: clamp(200px, 30vw, 470px);
   overflow: hidden;
 }
 
@@ -528,13 +537,13 @@ header {
 }
 
 .sec2_box_wrap_6 .sec2_text_box h4 {
-  font-size: 36px;
+  font-size: clamp(24px, 2vw, 36px);
   margin-bottom: 5px;
 }
 
 .sec2_box_wrap_6 .sec2_text_box p {
   font-family: "Lexend", serif;
-  font-size: 13px;
+  font-size: clamp(10px, 1vw, 13px);
 }
 
 /* 섹션 2번 - 7번 박스 */
@@ -542,11 +551,13 @@ header {
   width: fit-content;
   height: fit-content;
   position: relative;
+  padding: 0px 50px;
+  box-sizing: border-box;
 }
 
 .sec2_box_wrap_7 .sec2_img_box {
-  width: 453px;
-  height: 260px;
+  width: clamp(230px, 30vw, 453px);
+  height: clamp(130px, 15vw, 260px);
   overflow: hidden;
 }
 
@@ -561,16 +572,19 @@ header {
   position: absolute;
   bottom: -36px;
   left: 20px;
+  padding: 0px 50px;
+  box-sizing: border-box;
 }
 
 .sec2_box_wrap_7 .sec2_text_box h4 {
-  font-size: 36px;
+  font-size: clamp(24px, 2vw, 36px);
+  letter-spacing: -1px;
   margin-bottom: 5px;
 }
 
 .sec2_box_wrap_7 .sec2_text_box p {
   font-family: "Lexend", serif;
-  font-size: 13px;
+  font-size: clamp(10px, 1vw, 13px);
 }
 
 /* 섹션 2번 - 8번 박스 */
@@ -579,11 +593,12 @@ header {
   height: fit-content;
   position: relative;
   margin-left: auto;
+  padding: 0px 50px;
 }
 
 .sec2_box_wrap_8 .sec2_img_box {
-  width: 453px;
-  height: 260px;
+  width: clamp(100px, 30vw, 453px);
+  height: clamp(150px, 20vw, 270px);
   overflow: hidden;
 }
 
@@ -598,16 +613,17 @@ header {
   position: absolute;
   bottom: -36px;
   left: 20px;
+  padding: 0px 50px;
 }
 
 .sec2_box_wrap_8 .sec2_text_box h4 {
-  font-size: 36px;
+  font-size: clamp(20px, 2vw, 36px);
   margin-bottom: 5px;
 }
 
 .sec2_box_wrap_8 .sec2_text_box p {
   font-family: "Lexend", serif;
-  font-size: 13px;
+  font-size: clamp(10px, 1vw, 13px);
 }
 
 /* 섹션 2번 - 9번 박스 */
@@ -619,8 +635,8 @@ header {
 }
 
 .sec2_box_wrap_9 .sec2_img_box {
-  width: 816px;
-  height: 450px;
+  width: clamp(410px, 50vw, 816px);
+  height: clamp(240px, 30vw, 450px);
   overflow: hidden;
 }
 
@@ -638,13 +654,13 @@ header {
 }
 
 .sec2_box_wrap_9 .sec2_text_box h4 {
-  font-size: 36px;
+  font-size: clamp(26px, 2vw, 36px);
   margin-bottom: 5px;
 }
 
 .sec2_box_wrap_9 .sec2_text_box p {
   font-family: "Lexend", serif;
-  font-size: 13px;
+  font-size: clamp(10px, 1vw, 13px);
 }
 
 /* 3번 섹션 - 텍스트 슬라이드 영역 */
