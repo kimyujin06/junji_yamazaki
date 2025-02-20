@@ -873,6 +873,8 @@ main {
   height: fit-content;
   position: relative;
   top: 2100px;
+  padding: 0px 50px;
+  box-sizing: border-box;
 }
 
 .sec5_con {
@@ -882,7 +884,7 @@ main {
 
 .sec5_con > h2 {
   width: 100%;
-  font-size: 230px;
+  font-size: clamp(170px, 10vw, 210px);
   letter-spacing: -10px;
   line-height: 290px;
   text-align: center;
