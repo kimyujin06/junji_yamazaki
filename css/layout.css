@@ -106,7 +106,9 @@ header {
 /* 1번 섹션 메인비주얼_웹디자이너 */
 .sec1_webdesigner {
   width: 100%;
-  height: fit-content;
+  height: 100vh;
+  padding-top: 1vh;
+  box-sizing: border-box;
 }
 
 .sec1_wrap {
@@ -310,7 +312,6 @@ main {
   width: 100%;
   top: 20%;
   left: 0px;
-  margin-top: 500px;
   overflow: hidden;
 }
 
@@ -886,7 +887,7 @@ main {
 
 .sec5_con > h2 {
   width: 100%;
-  font-size: clamp(170px, 10vw, 210px);
+  font-size: clamp(80px, 15vw, 210px);
   letter-spacing: -10px;
   line-height: 290px;
   text-align: center;
@@ -992,7 +993,7 @@ main {
   height: fit-content;
   position: absolute;
   left: -60px;
-  font-size: 620px;
+  font-size: clamp(260px, 34vw, 620px);
   line-height: 400px;
 }
 

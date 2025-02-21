@@ -2,12 +2,107 @@
 
 /* 모바일 버전 */
 @media screen and (max-width: 780px) {
+  .header_con > h1 {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  #gnb > ul > li {
+    font-size: 18px;
+  }
+  .sec1_text_box_1 {
+    width: 100%;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 20px;
+  }
+  .sec1_text_box_2 {
+    width: 100%;
+    flex-direction: column-reverse;
+    align-items: start;
+    margin-left: 20px;
+  }
+  .sec1_text_box_1 > h2 > span:nth-of-type(1) {
+    font-size: clamp(80px, 20vw, 150px);
+  }
+  .sec1_text_box_1 > h2 > span:nth-of-type(2) {
+    font-size: clamp(100px, 20vw, 150px);
+  }
+  .sec1_text_box_1 > h2 > span:nth-of-type(3) {
+    font-size: clamp(100px, 20vw, 150px);
+  }
+  .sec1_text_box_1 > h2 > span:nth-of-type(4) {
+    font-size: clamp(70px, 20vw, 120px);
+  }
+  .sec1_text_box_1 > h2 > span:nth-of-type(5) {
+    font-size: clamp(100px, 20vw, 150px);
+  }
+  .sec1_text_box_1 > div {
+    width: 90vw;
+    height: fit-content;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  .sec1_text_box_2 > h2 > span:nth-of-type(1) {
+    font-size: clamp(80px, 20vw, 120px);
+  }
+  .sec1_text_box_2 > h2 > span:nth-of-type(2) {
+    font-size: clamp(90px, 20vw, 120px);
+  }
+  .sec1_text_box_2 > h2 > span:nth-of-type(3) {
+    font-size: clamp(75px, 20vw, 100px);
+  }
+  .sec1_text_box_2 > h2 > span:nth-of-type(4) {
+    font-size: clamp(75px, 20vw, 100px);
+  }
+  .sec1_text_box_2 > h2 > span:nth-of-type(5) {
+    font-size: clamp(75px, 15vw, 105px);
+  }
+  .sec1_text_box_2 > div {
+    width: 90vw;
+    height: clamp(60px, 15vw, 120px);
+  }
+  .sec1_text_box_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 20px;
+  }
+  .sec1_text_box_3 > h2 > span:nth-of-type(1) {
+    font-size: clamp(90px, 15vw, 120px);
+  }
+  .sec1_text_box_3 > h2 > span:nth-of-type(2) {
+    font-size: clamp(90px, 15vw, 130px);
+  }
+  .sec1_text_box_3 > h2 > span:nth-of-type(3) {
+    font-size: clamp(90px, 15vw, 120px);
+  }
+  .sec1_text_box_3 > h2 > span:nth-of-type(4) {
+    font-size: clamp(80px, 15vw, 110px);
+  }
+  .sec1_text_box_3 > h2 > span:nth-of-type(5) {
+    font-size: clamp(70px, 14vw, 120px);
+  }
+  .sec1_text_box_3 > p {
+    margin-top: 30px;
+    width: 90%;
+    line-height: clamp(10px, 20vw, 30px);
+    font-size: clamp(8px, 20vw, 22px);
+  }
+  .sec1_text_box_3 > p > br {
+    display: none;
+  }
+  .sec1_scroll_text > span {
+    font-size: 35px;
+  }
 }
 
 /* 이외 기타 반응형 부분 수정 구역 */
 @media screen and (max-width: 999px) {
   .container {
     margin-top: 40vw;
+  }
+  .sec1_webdesigner {
+    padding-top: 30%;
   }
   .sec2_box_wrap_2,
   .sec2_box_wrap_6,
@@ -38,10 +133,23 @@
     width: clamp(500px, 60vw, 1052px);
     height: clamp(350px, 30vw, 657px);
   }
+  .sec5_bottom_text_box {
+    display: block;
+  }
+  .sec5_left_text_box {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .sec5_right_text_box {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
   .container {
     margin-top: 30vw;
+  }
+  .sec1_webdesigner {
+    padding-top: 35%;
   }
   .sec2_box_wrap_2,
   .sec2_box_wrap_6,
@@ -100,5 +208,8 @@
 @media screen and (min-width: 1681px) {
   .sec2_next_project {
     overflow: visible;
+  }
+  .sec1_webdesigner {
+    padding-top: 15%;
   }
 }
