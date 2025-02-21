@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* 모바일 버전 */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 780px) {
 }
 
 /* 이외 기타 반응형 부분 수정 구역 */
@@ -69,7 +69,7 @@
     left: 30vw;
   }
 }
-@media screen and (min-width: 1200px) and (max-width: 1650px) {
+@media screen and (min-width: 1200px) and (max-width: 1680px) {
   .sec2_box_wrap_2,
   .sec2_box_wrap_6,
   .sec2_box_wrap_9 {
@@ -93,6 +93,12 @@
     line-height: 100px;
   }
   .heading_right {
-    left: 30vw;
+    left: 28vw;
+  }
+}
+
+@media screen and (min-width: 1681px) {
+  .sec2_next_project {
+    overflow: visible;
   }
 }

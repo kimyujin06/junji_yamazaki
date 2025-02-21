@@ -37,7 +37,7 @@ body {
 
 .background_cloud {
   height: 100lvh;
-  width: 100vw;
+  width: 100%;
   position: fixed;
   top: 0;
   left: 0;
@@ -65,7 +65,7 @@ body {
 }
 
 .container {
-  width: clamp(500px, 100vw, 1360px);
+  width: clamp(500px, 96vw, 1360px);
   height: fit-content;
   margin: 250px auto;
 }
@@ -186,7 +186,7 @@ header {
 }
 
 .sec1_text_box_2 > div {
-  width: 23vw;
+  width: 22vw;
 }
 .sec1_text_box_2 > div > img {
   object-fit: cover;
@@ -311,6 +311,7 @@ main {
   top: 20%;
   left: 0px;
   margin-top: 500px;
+  overflow: hidden;
 }
 
 /* 섹션 2번 - 1번 박스 */
@@ -514,7 +515,7 @@ main {
   height: fit-content;
   position: relative;
   margin-left: auto;
-  left: 140px;
+  left: 130px;
 }
 
 .sec2_box_wrap_6 .sec2_img_box {
@@ -781,7 +782,7 @@ main {
 }
 
 .heading_right > div {
-  width: clamp(600px, 60vw, 1052px);
+  width: clamp(600px, 58vw, 1052px);
   height: clamp(300px, 40vw, 657px);
   overflow: hidden;
   position: sticky;
@@ -875,6 +876,7 @@ main {
   top: 2100px;
   padding: 0px 50px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .sec5_con {
@@ -998,6 +1000,7 @@ main {
 .footer_box {
   position: relative;
   top: 2000px;
+  overflow: hidden;
 }
 
 .footer_box > p {
