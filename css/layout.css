@@ -67,7 +67,7 @@ body {
 .container {
   width: clamp(500px, 96vw, 1360px);
   height: fit-content;
-  margin: 250px auto;
+  margin: 0px auto;
 }
 
 /* 헤더 */
@@ -109,6 +109,7 @@ header {
   height: 100vh;
   padding-top: 1vh;
   box-sizing: border-box;
+  margin-bottom: 200px;
 }
 
 .sec1_wrap {
@@ -781,8 +782,12 @@ main {
   position: relative;
   left: 40%;
 }
-
 .heading_right > div {
+  width: 100%;
+  height: 100%;
+}
+
+.heading_right > div > div {
   width: clamp(600px, 58vw, 1052px);
   height: clamp(300px, 40vw, 657px);
   overflow: hidden;
@@ -790,7 +795,7 @@ main {
   top: 200px;
 }
 
-.heading_right > div > img {
+.heading_right > div > div > img {
   width: 100%;
   height: 100%;
   object-fit: cover;

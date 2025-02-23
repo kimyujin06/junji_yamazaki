@@ -2,6 +2,10 @@
 
 /* 모바일 버전 */
 @media screen and (max-width: 780px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
   .header_con > h1 {
     font-size: 20px;
     font-weight: 500;
@@ -9,17 +13,23 @@
   #gnb > ul > li {
     font-size: 18px;
   }
+  .container {
+    margin-top: 90px;
+  }
+  /* 섹션 1번 */
   .sec1_text_box_1 {
     width: 100%;
     flex-direction: column;
     align-items: start;
-    margin-left: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
   }
   .sec1_text_box_2 {
     width: 100%;
     flex-direction: column-reverse;
     align-items: start;
-    margin-left: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
   }
   .sec1_text_box_1 > h2 > span:nth-of-type(1) {
     font-size: clamp(80px, 20vw, 150px);
@@ -65,7 +75,8 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin-left: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
   }
   .sec1_text_box_3 > h2 > span:nth-of-type(1) {
     font-size: clamp(90px, 15vw, 120px);
@@ -94,15 +105,233 @@
   .sec1_scroll_text > span {
     font-size: 35px;
   }
+  /* 섹션 2번 */
+  .sec2_next_project {
+    width: 98%;
+    overflow: visible;
+  }
+  /* 1번 박스 영역 */
+  .sec2_box_wrap_1 {
+    padding: 0px;
+    height: 60vw;
+    margin-bottom: 120px;
+  }
+  .sec2_box_wrap_1 .sec2_img_box {
+    height: 100%;
+  }
+  .sec2_box_wrap_1 .sec2_text_box {
+    text-align: start;
+  }
+  /* 2번 박스 영역 */
+  .sec2_box_wrap_2 {
+    width: 100%;
+    height: 60vw;
+    left: 0px;
+    margin-bottom: 120px;
+  }
+  .sec2_box_wrap_2 .sec2_img_box {
+    width: 100%;
+    height: 100%;
+  }
+  .sec2_box_wrap_2 .sec2_text_box {
+    left: 0px;
+  }
+  /* 3번 박스 영역 */
+  .sec2_box_wrap_3 {
+    width: 100%;
+    height: 60vw;
+    margin-bottom: 120px;
+    left: 0px;
+  }
+  .sec2_box_wrap_3 .sec2_img_box {
+    width: 100%;
+    height: 100%;
+  }
+  .sec2_box_wrap_3 .sec2_text_box {
+    left: 0px;
+  }
+  /* 4번 박스 영역 */
+  .sec2_box_wrap_4 {
+    width: 100%;
+    height: 60vw;
+    padding: 0px;
+    margin-bottom: 120px;
+  }
+  .sec2_box_wrap_4 .sec2_img_box {
+    width: 100%;
+    height: 100%;
+  }
+  .sec2_box_wrap_4 .sec2_text_box {
+    left: 0px;
+    padding: 0px;
+  }
+  .sec2_box_wrap_4 .sec2_text_box h4 {
+    font-size: clamp(26px, 2vw, 36px);
+  }
+  .sec2_box_wrap_4 .sec2_text_box p {
+    font-size: clamp(10px, 1vw, 13px);
+  }
+  /* 5번 박스 영역 */
+  .sec2_box_wrap_5 {
+    width: 100%;
+    height: 60vw;
+    margin-bottom: 120px;
+  }
+  .sec2_box_wrap_5 .sec2_img_box {
+    width: 100%;
+    height: 100%;
+  }
+  .sec2_box_wrap_5 .sec2_text_box {
+    left: 0px;
+  }
+  .sec2_box_wrap_5 .sec2_text_box h4 {
+    font-size: clamp(26px, 2vw, 36px);
+  }
+  .sec2_box_wrap_5 .sec2_text_box p {
+    font-size: clamp(10px, 1vw, 13px);
+  }
+  /* 6번 박스 영역 */
+  .sec2_box_wrap_6 {
+    width: 100%;
+    height: 60vw;
+    left: 0px;
+    margin-bottom: 120px;
+  }
+  .sec2_box_wrap_6 .sec2_img_box {
+    width: 100%;
+    height: 100%;
+  }
+  .sec2_box_wrap_6 .sec2_text_box {
+    left: 0px;
+  }
+  /* 7번 박스 영역 */
+  .sec2_box_wrap_7 {
+    width: 100%;
+    height: 60vw;
+    padding: 0px;
+    margin-bottom: 120px;
+  }
+  .sec2_box_wrap_7 .sec2_img_box {
+    width: 100%;
+    height: 100%;
+  }
+  .sec2_box_wrap_7 .sec2_text_box {
+    left: 0px;
+    padding: 0px;
+  }
+  /* 8번 박스 영역 */
+  .sec2_box_wrap_8 {
+    width: 100%;
+    height: 60vw;
+    padding: 0px;
+    margin-bottom: 120px;
+  }
+  .sec2_box_wrap_8 .sec2_img_box {
+    width: 100%;
+    height: 100%;
+  }
+  .sec2_box_wrap_8 .sec2_text_box {
+    left: 0px;
+    padding: 0px;
+  }
+  /* 9번 박스 영역 */
+  .sec2_box_wrap_9 {
+    width: 100%;
+    height: 60vw;
+    left: 0px;
+  }
+  .sec2_box_wrap_9 .sec2_img_box {
+    width: 100%;
+    height: 100%;
+  }
+  .sec2_box_wrap_9 .sec2_text_box {
+    left: 0px;
+  }
+  /* 섹션 3번 텍스트 애니메이션 영역 */
+  .sec3_text_wrap {
+    width: 950px;
+  }
+  .sec3_text_all_wrap2 .sec3_text_wrap {
+    width: 760px;
+  }
+  .sec3_text_all_wrap1,
+  .sec3_text_all_wrap2 {
+    font-size: 30px;
+  }
+  .sec3_text_wrap > p {
+    line-height: 100px;
+  }
+  .se4_services,
+  .sec4_con {
+    width: 100%;
+  }
+  .heading_right {
+    left: 0px;
+  }
+  .heading_right > div > div {
+    position: absolute;
+    width: 100%;
+    height: 30vw;
+    top: 0px;
+  }
+  .sec4_contants1 > h4 {
+    margin-bottom: 300px;
+  }
+  .sec4_contants1 {
+    margin-top: -30px;
+  }
+  .heading_right > div > div:nth-of-type(1) {
+    top: 40px;
+  }
+  .heading_right > div > div:nth-of-type(2) {
+    top: 690px;
+  }
+  .heading_right > div > div:nth-of-type(3) {
+    top: 1400px;
+  }
+  .sec4_contants1,
+  .sec4_contants2,
+  .sec4_contants3 {
+    width: fit-content;
+    height: 970px;
+  }
+  .sec4_contants2 {
+    height: 720px;
+  }
+  .sec5_junji_yamazaki {
+    top: 1100px;
+  }
+  .sec5_bottom_text_box {
+    display: block;
+  }
+  .sec5_left_text_box {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .sec5_right_text_box {
+    width: 100%;
+  }
+  .sec5_footer_wrap {
+    display: block;
+  }
+  .sec5_footer_box:nth-of-type(3) > div {
+    margin-top: 20px;
+  }
+  .sec5_footer_box:nth-of-type(3) p {
+    margin-top: 20px;
+  }
+  .sec6_click_here {
+    top: 1500px;
+  }
 }
 
 /* 이외 기타 반응형 부분 수정 구역 */
-@media screen and (max-width: 999px) {
+@media screen and (min-width: 781px) and (max-width: 999px) {
   .container {
-    margin-top: 40vw;
+    margin-top: 0px;
   }
   .sec1_webdesigner {
-    padding-top: 30%;
+    padding-top: 35%;
   }
   .sec2_box_wrap_2,
   .sec2_box_wrap_6,
@@ -129,7 +358,7 @@
   .heading_right {
     left: 27vw;
   }
-  .heading_right > div {
+  .heading_right > div > div {
     width: clamp(500px, 60vw, 1052px);
     height: clamp(350px, 30vw, 657px);
   }
@@ -146,10 +375,10 @@
 }
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
   .container {
-    margin-top: 30vw;
+    margin-top: 0px;
   }
   .sec1_webdesigner {
-    padding-top: 35%;
+    padding-top: 25%;
   }
   .sec2_box_wrap_2,
   .sec2_box_wrap_6,
@@ -178,6 +407,9 @@
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1680px) {
+  .sec1_webdesigner {
+    padding-top: 20%;
+  }
   .sec2_box_wrap_2,
   .sec2_box_wrap_6,
   .sec2_box_wrap_9 {
