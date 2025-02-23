@@ -323,6 +323,14 @@
   .sec6_click_here {
     top: 1500px;
   }
+  .footer_box {
+    top: 1200px;
+    overflow: visible;
+    z-index: 999;
+  }
+  .sec6_click_here > h2 {
+    font-size: clamp(175px, 34vw, 620px);
+  }
 }
 
 /* 이외 기타 반응형 부분 수정 구역 */
@@ -371,6 +379,11 @@
   }
   .sec5_right_text_box {
     width: 100%;
+  }
+  .footer_box {
+    top: 2400px;
+    overflow: visible;
+    z-index: 999;
   }
 }
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
